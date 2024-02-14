@@ -1,0 +1,16 @@
+@import 'bootstrap';
+@import './fede.css';
+@import './giuse.css';
+@import './nico.css';
+@import './manu.css';
+@import './anchor.css';
+@import './button.css';
+@import './loader.css';
+
+:root {
+    --vin: #FFEDE3;
+    --vinFade: #641c3476;
+    --yel: #d78263;
+    --prim: #fddfdf;
+    --second: #fed9d6;
+}

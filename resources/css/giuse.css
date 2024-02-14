@@ -1,0 +1,65 @@
+/* inserisci articolo */
+
+.gbody{
+    background-color: var(--vin);
+}
+.gtesto{
+    text-align: center;
+
+}
+.gbg{
+    background-color:var(--prim) ;
+
+}
+.gbox{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 20px 5px black;
+
+}
+
+/* pagina annuncio da revisionare */
+
+.gAccettaButton{
+    background-color:var(--prim);
+    color: green;
+    border: 2px solid green;
+}
+
+.gRifiutabutton{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+  }
+
+.gbutton{
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.gAccettaButton:hover{
+    color: var(--prim);
+    background-color:green;
+    transition: 0.1s;
+}
+
+.gRifiutabutton:hover{
+    color: var(--prim);
+    background-color:red;
+    transition: 0.1s;
+}
+.gcard{
+    width: 400px;
+}
+
+
+#gpadre {
+    width: 350px;
+    height: 350px;
+  }
+
+  #gpadre img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+  }

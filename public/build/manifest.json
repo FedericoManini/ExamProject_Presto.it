@@ -1,0 +1,24 @@
+{
+  "public/img/prestoRose.png": {
+    "file": "assets/prestoRose-yMDjP5j3.png",
+    "src": "public/img/prestoRose.png"
+  },
+  "public/img/wave3.svg": {
+    "file": "assets/wave3-mhGewJLK.svg",
+    "src": "public/img/wave3.svg"
+  },
+  "public/img/wave4.svg": {
+    "file": "assets/wave4-jxQw7mCM.svg",
+    "src": "public/img/wave4.svg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-6mb-n3-D.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-ALIrwSWF.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

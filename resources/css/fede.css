@@ -1,0 +1,346 @@
+/*! CARD HOME */
+
+#fCardHomeInner{
+    overflow: hidden;
+    box-shadow: 5px 5px 20px 5px lightgrey;
+}
+
+#fCardHomeInner img{
+    transition: 0.5s;
+}
+
+#fCardHomeInner img:hover{
+    transform: scale(1.01);
+}
+
+#firsentry{
+    margin: 0;
+    padding: 0;
+}
+
+.fGenoveffa{
+    width: 300px;
+    height: 150px;
+    perspective: 500px;
+}
+.fGenoveffaCard{
+    position: relative;
+    width:100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+}
+
+.fGenoveffaFront,
+.fGenoveffaBack{
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 5px lightgrey;
+    color: black;
+}
+
+.fGenoveffa a{
+    text-decoration: none;
+    color: white;
+}
+
+.fGenoveffaBack{
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    padding: 25px;
+    color: var(--prim);
+    background:url(/public/img/prestoRose.png), linear-gradient(var(--vin), var(--second));
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotateX(180deg);
+}
+
+.fGenoveffa:hover .fGenoveffaCard{
+    transform: rotateX(180deg);
+}
+
+.fGenoveffa:nth-child(1),
+.fGenoveffa:nth-child(1) .fGenoveffaFront,
+.fGenoveffa:nth-child(1) .fGenoveffaBack{
+    width: 600px;
+    height: 150px;
+}
+
+.fGenoveffa:nth-child(1) .fGenoveffaFront{
+    background: url(/public/img/wave3.svg), linear-gradient(var(--vin), var(--second));
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.fGenoveffa:nth-child(2) .fGenoveffaFront{
+    background: url(/public/img/wave3.svg), linear-gradient(var(--vin), var(--second));
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.fGenoveffa:nth-child(3) .fGenoveffaFront{
+    background: url(/public/img/wave3.svg), linear-gradient(var(--vin), var(--second));
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.fGenoveffa:nth-child(4) .fGenoveffaFront{
+    background: url(/public/img/wave3.svg), linear-gradient(var(--vin), var(--second));
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.fGenoveffa:nth-child(5) .fGenoveffaFront{
+    background: url(/public/img/wave3.svg), linear-gradient(var(--vin), var(--second));
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.fGenoveffa:nth-child(6) .fGenoveffaFront {
+    background: url(/public/img/wave3.svg), linear-gradient(var(--vin), var(--second));
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.fGenoveffa:nth-child(6),
+.fGenoveffa:nth-child(6) .fGenoveffaFront,
+.fGenoveffa:nth-child(6) .fGenoveffaBack {
+    width: 600px;
+    height: 150px;
+}
+
+
+/*! Header */
+
+#fInnerTitle1,
+#fInnerTitle2,
+#fInnerTitle3,
+#fInnerTitle4{
+    display: none;
+    opacity: 0;
+}
+
+#bgHeader{
+    height: 60vh;
+    background: url(/public/img/wave3.svg), linear-gradient(var(--second), var(--vin));
+    background-repeat: no-repeat;
+    background-position: bottom;
+    box-shadow: 1px 46px 45px 22px #fcf7f8;
+    -webkit-box-shadow: 1px 46px 45px 22px #fcf7f8;
+    -moz-box-shadow: 1px 46px 45px 22px #fcf7f8;
+}
+
+#titleHeader{
+    color: var(--yel);
+}
+
+#fInnerTitle4{
+    color: var(--yel);
+}
+
+.fDisplayRoute{
+    color: black;
+}
+
+
+
+
+
+/* ! Progress Bar */
+.progress-container1 {
+    top: 0px;
+    width: 100%;
+    background-color: #f1f1f18a;
+    position: fixed;
+    z-index: 3;
+}
+
+.progress-bar1 {
+    height: 10px;
+    background: linear-gradient(100deg, var(--vin), var(--second));
+    width: 0;
+    transition: 1s;
+    border-bottom: 1px solid var(--vinFade);
+    border-right: 1px solid var(--vinFade);
+    z-index: 3;
+}
+
+.progress-container2 {
+    bottom: 0px;
+    width: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+    z-index: 3;
+}
+
+.progress-bar2 {
+    height: 10px;
+    background: linear-gradient(100deg, var(--vin), var(--second));
+    width: 0;
+    transition: 1s;
+    border-top: 1px solid var(--vinFade);
+    border-right: 1px solid var(--vinFade);
+    z-index: 3;
+}
+/* !FINE PROGRESS BAR */
+
+
+/* ?Nav */
+.navbar{
+    top:10px;
+    background-color: transparent !important;
+}
+
+.fRevisorCount{
+    color:darkred;
+    animation: tremble 0.5s infinite ease-out;
+}
+
+.fRedDot{
+    position: relative;
+    top: -10px;
+    right: 10px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    padding: 0px 6px;
+    background-color: red;
+}
+
+
+.img-preview {
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Carousel Home */
+
+.fCarouselHome{
+    width: 100%;
+    height: 70vh;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.fCarouselHomeInner{
+    transform: translateX(-150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    color: var(--vinFade);
+}
+
+.carousel-fade{
+    z-index: 2;
+    box-shadow: 5px 5px 20px 5px lightgrey;
+}
+
+#carouselExampleFade{
+    border-radius: 25px;
+}
+
+.offcanvas{
+    background-color: rgb(221, 221, 221);
+    background-image: url("/public/img/prestoRose.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.offcanvas-body,
+.offcanvas-header{
+    border-left: solid 3px var(--vinFade);
+}
+
+.page-link{
+    color: black;
+}
+.page-link.active, .active > .page-link{
+    background-color: var(--vinFade);
+    border-color: black;
+}
+
+
+@keyframes tremble {
+    0% {
+        transform: translateY(1px);
+    }
+
+    25% {
+        transform: translateY(-1px);
+    }
+
+    50% {
+        transform: translateY(1px);
+    }
+
+    75% {
+        transform: translateY(-1px);
+    }
+
+    100% {
+        transform: translateY(1px);
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 796px) {
+
+    .fGenoveffa:nth-child(1),
+    .fGenoveffa:nth-child(1) .fGenoveffaFront,
+    .fGenoveffa .fGenoveffaBack {
+        width: 300px;
+        height: 150px;
+    }
+
+    .fGenoveffa:nth-child(6),
+    .fGenoveffa:nth-child(6) .fGenoveffaFront,
+    .fGenoveffa .fGenoveffaBack {
+        width: 300px;
+        height: 150px;
+    }
+
+    .fGenoveffa,
+    .fGenoveffa .fGenoveffaFront,
+    .fGenoveffa .fGenoveffaBack {
+        width: 300px;
+        height: 150px;
+    }
+
+    .fGenoveffaBack {
+        width: 300px !important;
+        height: 150px;
+    }
+
+    #bgHeader {/*
+        margin-top: 56px; */
+        height: 30vh;
+    }
+
+    .navbar{
+        background-color: white !important;
+    }
+
+    .progress-container1{
+        background-color: white;
+    }
+}
